@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/myshop.css" />
+    <script src="/myshop.js" defer></script>
+    <title>SHOP</title>
+  </head>
+  <body>
+    <h1>My Shop</h1>
+    <form action="/" method="get">
+      <label for="itemName">Item Name:</label>
+      <input type="text" id="itemName" name="itemName" /> <br />
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" /><br />
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" /><br />
+      <label for="discountPercentage">Discount Percentage:</label>
+      <input
+        type="number"
+        id="discountPercentage"
+        name="discountPercentage"
+      /><br />
+      <label class="total-discount" for="totalDiscount">Total Discount:</label>
+      <br />
+      <label class="total-amount" for="totalAmount">Total Amount:</label>
+      <br />
+      <button type="button">Total to be Paid</button>
+    </form>
+  </body>
+</html>
