@@ -156,6 +156,12 @@ h1 {
   .image-text img {
     height: 3svh;
   }
+  .welcome-area img {
+    height: 5rem;
+  }
+  .overlay-text {
+    padding: 5px 10px;
+  }
 }
 
 .image-container {
